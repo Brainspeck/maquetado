@@ -1,0 +1,40 @@
+ul{
+    list-style: none;
+    font-size: 50px;
+}
+
+.parrafoAzul{
+    color: blue;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#parrafoAmarillo{
+    color: yellowgreen;
+    font-size: 32px;
+}
+
+div{
+    border: 1px solid red;
+    width: 80px;
+    height: 50px;
+}
+
+div.contenedorNegro{
+    background-color: black;
+    color: white;
+}
+
+.contenedorNegro{
+    padding: 20px;
+    border:  1px solid red;
+    margin: 30px 60px;
+}
+
+div.contenedorNegro a{
+    color: white;
+}
+
+body{
+    background-color: #1c1e1f;
+}
