@@ -1,0 +1,15 @@
+.mainDiv{
+    width: 300px;
+    margin: 0 auto;
+}
+.container{
+    background-color: rgb(226, 224, 224);
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container::before{
+    content: "💬";
+}
