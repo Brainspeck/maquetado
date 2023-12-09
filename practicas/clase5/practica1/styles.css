@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+@media screen and (min-width:600px) {
+    body{
+        background-color: blue;
+    }
+    .mobile{
+        display: block;
+    }
+    .tablet, .desktop, .xl{
+        display: none;
+    }
+}
+@media screen and (min-width:768px) {
+    body{
+        background-color: green;
+    }
+    .tablet{
+        display: block;
+    }
+    .mobile, .desktop, .xl{
+        display: none;
+    }
+}
+@media screen and (min-width:992px) {
+    body{
+        background-color: red;
+    }
+    .desktop{
+        display: block;
+    }
+    .tablet, .mobile, .xl{
+        display: none;
+    }
+}
+@media screen and (min-width:1440px) {
+    body{
+        background-color: rgb(68, 4, 4);
+    }
+    .xl{
+        display: block;
+    }
+    .tablet, .desktop, .mobile{
+        display: none;
+    }
+}
+.xl{
+    color: white;
+}
