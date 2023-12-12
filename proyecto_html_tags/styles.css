@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+     background: linear-gradient(to bottom, #3498db, #bdc3c7, #2c3e50);
+    min-height: 100vh;
+    font-family: monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    
+    main{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .divTitleIndex{
+        position: relative;
+    }
+    .mainTitle{
+        position: absolute;
+        text-align: center;
+        left: 30%;
+    }
+    .indice{
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        margin-top: 14%;
+        
+    }
+
+
+
+ul{
+    list-style: none;
+}
+
+a:visited{
+    color: inherit;
+}
+
+
+.link1{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 18%;
+}
+.link2{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 20%;
+}
+.link3{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 22%;
+}
+.link4{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 24%;
+}
+.link5{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 26%;
+}
+.link6{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 28%;
+}
+.link7{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 30%;
+}
+.link8{
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    margin-top: 32%;
+}
+
+#button{
+    margin-top: 45%;
+}
+
+.content{
+    max-width: 85%;
+    position: relative;
+    left: 10%;
+}
+
+.example{
+    margin-top: 7px;
+    color: green;
+}
+
+.tagStyle{
+    overflow-wrap: break-word;
+    background-color: rgb(153, 151, 151);
+    border-radius: 8px;
+}
+
+#h16, #strong, #img, #paragraph, #ul, #li, #ol{
+    margin-top: 3%;
+    
+}
+
+
+@media screen and (min-width: 992px){
+    body{
+        font-size:x-large;
+    }
+    li{
+        font-size: xx-large;
+    }
+    .indice{
+        margin-top: 6%;
+    }
+    .link1{
+        margin-top: 12%;
+    }
+    .link2{
+        margin-top: 14%;
+    }
+    .link3{
+        margin-top: 16%;
+    }
+    .link4{
+        margin-top: 18%;
+    }
+    .link5{
+        margin-top: 20%;
+    }
+    .link6{
+        margin-top: 22%;
+    }
+    .link7{
+        margin-top: 24%;
+    }
+    .link8{
+        margin-top: 26%;
+    }
+    #button{
+        margin-top: 40%;
+    }
+    li{
+        font-size: large;
+    }
+
+}
+
+
+
