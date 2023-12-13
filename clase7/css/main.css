@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+main .seccion {
+  width: 33%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.seccion,
+.seccion2,
+.seccion3 {
+  background-color: #5c6263;
+  color: #878f99;
+  padding: 10px 15px;
+}
+
+.seccion2 article p {
+  font-size: 20px;
+}
+.seccion2 article p#parrafoSmall {
+  font-size: 16px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+nav ul li {
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  text-decoration: underline;
+}
+
+.nabvar {
+  width: 100%;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
