@@ -1,0 +1,16 @@
+.miCol1{
+    background-color: tomato;
+}
+.miCol2{
+    background-color: hotpink;
+}
+.miCol3{
+    background-color: lightseagreen;
+}
+.miCol4{
+    background-color: gold;
+}
+
+.row>div{
+    height: 150px;
+}
